@@ -1,0 +1,36 @@
+{
+  "name": "leaflet-areaselect",
+  "description": "Leaflet plugin for letting users select an area of the map using a rectangle, and get the bounding box",
+  "version": "0.0.0",
+  "main": [
+    "src/leaflet-areaselect.js",
+    "src/leaflet-areaselect.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "example",
+    "*.rst",
+    "bower.json"
+  ],
+  "keywords": [
+    "javascript",
+    "leaflet",
+    "maps"
+  ],
+  "authors": [
+    {
+      "name": "Jonatan Heyman"
+    }
+  ],
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyman/leaflet-areaselect"
+  },
+  "dependencies": {
+    "leaflet-dist": "0.7.x"
+  },
+  "devDependencies": {
+    "leaflet": "~0.7.0"
+  }
+}
